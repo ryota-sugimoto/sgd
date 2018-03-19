@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from scipy.stats import multivariate_normal
 
 class Optimizer:
   def optimize(self, threshold=10e-6, max_iteration=10e6):
